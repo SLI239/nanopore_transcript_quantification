@@ -1,0 +1,13 @@
+name: nanopore_rna_analysis
+dependencies:
+  - minimap2=2.24
+  - samtools=1.16.1
+  - bamtools=2.5.2
+  - gatk4=4.3.0.0
+  - stringtie=2.2.1
+  - subread=2.0.3
+channels:
+  - bioconda
+  - anaconda
+  - conda-forge
+  - defaults
