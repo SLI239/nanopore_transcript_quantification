@@ -27,7 +27,7 @@ It includes following tools. For detailed information, check out the links:
 ``` 
 3. Open 'nextflow.config' and edit 'params' section 
 ```
-  1) fastq_dir: Path of .fastq.gz directory
+  1) fastq_dir: Path of gzipped fastq (.fastq.gz) directory
   2) ref_genome: Path of reference genome file (.fa) 
   3) genome_annot: Path of genome annotation file (.gtf)
         - The version of genome annotation needs to match with the reference genome
@@ -53,7 +53,7 @@ nextflow run main.nf
 
 
 ## Input
-- Gzipped fastq: Directory path required
+- Gzipped fastq (.fastq.gz): Directory path required
 - Reference genome (.fa): File path required
 - Genome annotation (.gtf): File path required 
 
