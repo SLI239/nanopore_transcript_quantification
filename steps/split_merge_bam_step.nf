@@ -15,6 +15,7 @@ def xymt = ['chrX', 'chrY', 'chrMT']
 chr.addAll(xymt)
 
 
+
 // SPLIT BAM BY CHROMOSOME AND MERGE
 workflow SPLIT_MERGE {
     take:
