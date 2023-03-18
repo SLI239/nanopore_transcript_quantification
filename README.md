@@ -70,4 +70,4 @@ Output data is groupped by chromosome
 
 
 ## Credits
- nanopore_transcript_quantification was written by Songeun Lee (songeunlee2@gmail.com)
+ **nanopore_transcript_quantification** was written by Songeun Lee (songeunlee2@gmail.com)
