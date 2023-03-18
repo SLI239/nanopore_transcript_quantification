@@ -30,7 +30,7 @@ It includes following tools. For detailed information, check out the links:
   1) fastq_dir: Path of fastq.gz directory
   2) ref_genome: Path of reference genome file (.fa) 
   3) genome_annot: Path of genome annotation file (.gtf)
-        - The version of genome annotation needs to match wit the reference genome
+        - The version of genome annotation needs to match with the reference genome
   4) out_dir: Path of directory to store output
   5) trace_dir: Path of directory to store pipeline execution information
   6) rna_type: "direct_rna" or "cdna" (long-read RNA-seq technologies; case-insensitive)
