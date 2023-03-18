@@ -39,7 +39,7 @@ It includes following tools. For detailed information, check out the links:
   7) num_of_top_secondary_mapping: Minimap2 -N option
   8) secondary_mapping_min_chaining_ratio: Minimap2 -p option
   9) fcnts_strand: FeatureCounts -s option
-        - Strand-specific read counting: 0 (unstranded), 1 (stranded) and 2 (reversely stranded)
+        - Strand-specific read counting: 0 (unstranded; default), 1 (stranded) and 2 (reversely stranded)
   10) min_overlapping_bases: FeatureCounts --minOverlap option
         - Minimum number of overlapping bases in a read that is required for read assignment (default: 1) 
   11) feature_type: FeatureCounts -t option
