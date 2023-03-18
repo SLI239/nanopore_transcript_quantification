@@ -36,9 +36,7 @@ It includes following tools. For detailed information, check out the links:
   6) rna_type: "direct_rna" or "cdna" (long-read RNA-seq technologies; case-insensitive)
         - "direct_rna" refers to direct RNA and "cdna" refers to traditional full-length cDNA (https://github.com/lh3/minimap2)
   7) num_of_top_secondary_mapping: Minimap2 -N option
-        - Check out https://github.com/lh3/minimap2
   8) secondary_mapping_min_chaining_ratio: Minimap2 -p option
-        - Check out https://github.com/lh3/minimap2
   9) fcnts_strand: FeatureCounts -s option
         - Strand-specific read counting: 0 (unstranded), 1 (stranded) and 2 (reversely stranded)
   10) min_overlapping_bases: FeatureCounts --minOverlap option
