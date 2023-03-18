@@ -25,7 +25,6 @@ It includes following tools. For detailed information, check out the links:
 ```
     conda install -c bioconda nextflow=22.04.5
     conda install -c conda-forge mamba=1.3.1
-
 ``` 
 3. Open 'nextflow.config' and edit 'params' section 
 ```
@@ -45,13 +44,11 @@ It includes following tools. For detailed information, check out the links:
                         Minimum number of overlapping bases in a read that is required for read assignment (default: 1) 
     - feature_type: FeatureCounts -t option
                     The feature type(s); 'exon' and/or 'transcript'
-                    If more than one feature type is provided, they should be separated by ',' (e.g., "exon,transcript") 
-   
+                    If more than one feature type is provided, they should be separated by ',' (e.g., "exon,transcript")  
 ```
 4. Run this pipeline  
 ```
 nextflow run main.nf
-
 ```
 
 
