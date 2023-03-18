@@ -38,11 +38,11 @@ workflow {
     fastq_ch = Channel.fromPath(params.fastq_dir + "/*.fastq.gz", checkIfExists: true)
 
 
-    // 1) Align reads and collect mapped reads  
+    // 1) Align reads to the reference genome  
     ALIGN(fastq_ch)
 
 
-    // 2) Group and merge reads by chromsome
+    // 2) Merge mapped reads by chromsome
     SPLIT_MERGE(ALIGN.out)
     
 
