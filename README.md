@@ -20,7 +20,7 @@ It includes following tools. For detailed information, check out the links:
 
 ## Quick Start
 1. Git clone this repository 
-2. Create and activate a Conda environment (and install following packages if not installed already)
+2. Create and activate Conda environment (and install following packages if not installed already)
 ```
     conda install -c bioconda nextflow=22.04.5
     conda install -c conda-forge mamba=1.3.1
