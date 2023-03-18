@@ -1,4 +1,4 @@
-# Nanopore RNA-seq downstream analysis: Transcript reconstruction and quantification
+# Nanopore RNA-seq Analysis: Transcript Reconstruction and Quantification
 
 
 ## Introduction
