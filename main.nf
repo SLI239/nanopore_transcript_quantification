@@ -46,7 +46,7 @@ workflow {
     SPLIT_MERGE(ALIGN.out)
     
 
-    // 3) Detect isoform 
+    // 3) Transcript reconstruction and quantification 
     QUANT(SPLIT_MERGE.out)
 
 }
