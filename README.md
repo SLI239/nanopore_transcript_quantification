@@ -34,7 +34,8 @@ It includes following tools. For detailed information, check out the links:
   4) out_dir: Path of directory to store output
   5) trace_dir: Path of directory to store pipeline execution information
   6) rna_type: "direct_rna" or "cdna" (long-read RNA-seq technologies; case-insensitive)
-        - "direct_rna" refers to direct RNA and "cdna" refers to traditional full-length cDNA (https://github.com/lh3/minimap2)
+        - "direct_rna" refers to direct RNA and "cdna" refers to traditional full-length cDNA 
+        - Check out https://github.com/lh3/minimap2
   7) num_of_top_secondary_mapping: Minimap2 -N option
   8) secondary_mapping_min_chaining_ratio: Minimap2 -p option
   9) fcnts_strand: FeatureCounts -s option
@@ -42,7 +43,8 @@ It includes following tools. For detailed information, check out the links:
   10) min_overlapping_bases: FeatureCounts --minOverlap option
         - Minimum number of overlapping bases in a read that is required for read assignment (default: 1) 
   11) feature_type: FeatureCounts -t option
-        - The feature type(s): 'exon' and/or 'transcript' (if more than one feature type is provided, they should be separated by ',')  
+        - The feature type(s): 'exon' and/or 'transcript'
+        - If more than one feature type is provided, they should be separated by ','  
 ```
 4. Run this pipeline  
 ```
