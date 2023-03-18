@@ -44,7 +44,7 @@ It includes following tools. For detailed information, check out the links:
         - Minimum number of overlapping bases in a read that is required for read assignment (default: 1) 
   11) feature_type: FeatureCounts -t option
         - The feature type(s): 'exon' and/or 'transcript'
-        - If more than one feature type is provided, they should be separated by ','  
+        - If more than one feature type is provided, they should be separated by ',' (no space)  
 ```
 4. Run this pipeline  
 ```
