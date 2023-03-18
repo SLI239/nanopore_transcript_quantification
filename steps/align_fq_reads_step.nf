@@ -19,7 +19,7 @@ workflow ALIGN {
 
     main:
         fq_fList = fastq_ch.map {                   // tuple structure: [ fastq name, fastq file ]
-            file -> tuple(file.name.toString().tokenize('.').get(0), file) 
+            file -> tuple(file.name.toString().tokenize('.')[0..-3].join('.'), file) 
         }
     
         // Referece genome indexing
