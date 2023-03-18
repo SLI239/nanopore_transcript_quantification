@@ -10,7 +10,7 @@ It includes following tools. For detailed information, check out the links:
   - bamtools (v2.5.2): https://github.com/pezmaster31/bamtools
   - gatk4 (v4.3.0.0): https://gatk.broadinstitute.org/hc/en-us/sections/9570256638747-4-3-0-0-Current
   - stringtie (v2.2.1): https://github.com/gpertea/stringtie
-  - featureCounts (subread v2.0.3): https://bioconductor.org/packages/release/bioc/vignettes/Rsubread/inst/doc/SubreadUsersGuide.pdf
+  - featureCounts (subread v2.0.3): https://subread.sourceforge.net/ https://bioconductor.org/packages/release/bioc/vignettes/Rsubread/inst/doc/SubreadUsersGuide.pdf
 
 
 ## Requirements
