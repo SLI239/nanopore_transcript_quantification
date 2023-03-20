@@ -29,7 +29,6 @@ workflow ALIGN {
         
         // Read alignment using reference index
         fq_refIndex = fq_fList.combine(refIndex)
-
         sam_ch = MINIMAP2_ALIGN_READ(fq_refIndex) 
         
         
