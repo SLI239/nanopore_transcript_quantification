@@ -23,7 +23,6 @@ workflow QUANT {
 
         // Quantify transcripts using FeatureCounts
         bam_gtf = merged_bList.combine(strT_fList, by:0)
-        
         fcnts_fList = FCNTS_QUANT_TRANSCRIPT(bam_gtf)
     
     
