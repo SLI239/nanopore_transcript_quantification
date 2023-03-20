@@ -22,6 +22,7 @@ workflow ALIGN {
             file -> tuple(file.name.toString().tokenize('.')[0..-3].join('.'), file) 
         }
     
+
         // Referece genome indexing
         refIndex = MINIMAP2_CREATE_MMI(params.ref_genome)
 
