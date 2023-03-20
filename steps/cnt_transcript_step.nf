@@ -17,7 +17,7 @@ workflow QUANT {
 
 
     main:
-        // Identify novel transcripts using StringTie
+        // Assemble alignments into transcripts using StringTie
         strT_fList = STRINGTIE_CREATE_GTF(merged_bList)
 
 
