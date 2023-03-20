@@ -22,8 +22,8 @@ It includes following tools. For detailed information, check out the links:
 1. Git clone this repository 
 2. Activate Conda environment (If you don't have one already, create and install following packages)
 ```
-    conda install -c bioconda nextflow=22.04.5
-    conda install -c conda-forge mamba=1.3.1
+conda install -c bioconda nextflow=22.04.5
+conda install -c conda-forge mamba=1.3.1
 ``` 
 3. Open 'nextflow.config' and edit 'params' section 
 ```
