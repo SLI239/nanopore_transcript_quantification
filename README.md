@@ -45,7 +45,7 @@ conda install -c conda-forge mamba=1.3.1
      FeatureCounts -s option (strand-specific read counting)
      - 0 (unstranded; default), 1 (stranded) or 2 (reversely stranded)
   10) min_overlapping_bases: 
-      FeatureCounts --minOverlap option (minimum number of overlapping bases) 
+      FeatureCounts --minOverlap option (minimum number of overlapping bases in a read) 
       - default: 1
   11) feature_type: FeatureCounts -t option (feature type)
       - 'exon' and/or 'transcript'
