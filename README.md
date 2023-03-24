@@ -43,7 +43,7 @@ conda install -c conda-forge mamba=1.3.1
      Minimap2 -p option (minimum chaining score ratio of secondary to primary mapping)  
   9) fcnts_strand:
      FeatureCounts -s option (strand-specific read counting)
-     - 0 (unstranded; default), 1 (stranded) and 2 (reversely stranded)
+     - 0 (unstranded; default), 1 (stranded) or 2 (reversely stranded)
   10) min_overlapping_bases: 
       FeatureCounts --minOverlap option (minimum number of overlapping bases) 
       - default: 1
