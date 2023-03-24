@@ -25,7 +25,7 @@ It includes following tools. For detailed information, check out the links:
 conda install -c bioconda nextflow=22.04.5
 conda install -c conda-forge mamba=1.3.1
 ``` 
-3. Open 'nextflow.config' and edit 'params' section 
+3. Open nextflow.config and edit 'params' section 
 ```
   1) fastq_dir: 
      Path of gzipped fastq (.fastq.gz) directory
@@ -39,18 +39,18 @@ conda install -c conda-forge mamba=1.3.1
   5) trace_dir: 
      Path of directory to store pipeline execution information
   6) rna_type:
-     Long-read RNA-seq technology, "direct_rna" or "cdna" (case-insensitive)
-        - "direct_rna": Direct sequencing of native RNA strands
-        - "cdna": Traditional RNA sequencing technology
+     Long-read RNA-seq technology, 'direct_rna' or 'cdna' (case-insensitive)
+        - direct_rna: Direct sequencing of native RNA strands
+        - cdna: Traditional RNA sequencing technology
   7) num_of_top_secondary_mapping: Minimap2 -N option
   8) secondary_mapping_min_chaining_ratio: Minimap2 -p option
   9) fcnts_strand:
      FeatureCounts -s option (strand-specific read counting)
         - 0 (unstranded; default), 1 (stranded) and 2 (reversely stranded)
   10) min_overlapping_bases: 
-      FeatureCounts --minOverlap option (min. number of overlapping bases) 
+      FeatureCounts --minOverlap option (minimum number of overlapping bases) 
         - default: 1
-  11) feature_type: FeatureCounts -t option
+  11) feature_type: FeatureCounts -t option (feature type)
         - 'exon' and/or 'transcript'
         - separated by ',' (no space) when multiple types are provided 
 ```
