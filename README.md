@@ -42,8 +42,10 @@ conda install -c conda-forge mamba=1.3.1
      Long-read RNA-seq technology, 'direct_rna' or 'cdna' (case-insensitive)
      - direct_rna: Direct sequencing of native RNA strands
      - cdna: Traditional RNA sequencing technology
-  7) num_of_top_secondary_mapping: Minimap2 -N option (number of top secondary mappings)
-  8) secondary_mapping_min_chaining_ratio: Minimap2 -p option (minimum chaining score ratio of secondary mapping to primary mapping)  
+  7) num_of_top_secondary_mapping: 
+     Minimap2 -N option (number of top secondary mappings)
+  8) secondary_mapping_min_chaining_ratio: 
+     Minimap2 -p option (minimum chaining score ratio of secondary mapping to primary mapping)  
 9) fcnts_strand:
      FeatureCounts -s option (strand-specific read counting)
      - 0 (unstranded; default), 1 (stranded) and 2 (reversely stranded)
