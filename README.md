@@ -20,31 +20,39 @@ It includes following tools. For detailed information, check out the links:
 
 ## Quick Start
 1. Git clone this repository 
-2. Activate Conda environment (If you don't have one already, create and install following packages)
+2. Activate Conda environment (If you don't have one already, create one and install following packages as below)
 ```
 conda install -c bioconda nextflow=22.04.5
 conda install -c conda-forge mamba=1.3.1
 ``` 
 3. Open 'nextflow.config' and edit 'params' section 
 ```
-  1) fastq_dir: Path of gzipped fastq (.fastq.gz) directory
-  2) ref_genome: Path of reference genome file (.fa) 
-  3) genome_annot: Path of genome annotation file (.gtf)
-        - The version of genome annotation needs to match with the reference genome
-  4) out_dir: Path of directory to store output
-  5) trace_dir: Path of directory to store pipeline execution information
-  6) rna_type: "direct_rna" or "cdna" (long-read RNA-seq technologies; case-insensitive)
-        - "direct_rna" refers to direct RNA and "cdna" refers to traditional full-length cDNA 
-        - Check out https://github.com/lh3/minimap2
+  1) fastq_dir: 
+     Path of gzipped fastq (.fastq.gz) directory
+  2) ref_genome: 
+     Path of reference genome file (.fa) 
+  3) genome_annot: 
+     Path of genome annotation file (.gtf)
+        - The version needs to match with the reference genome
+  4) out_dir: 
+     Path of directory to store output
+  5) trace_dir: 
+     Path of directory to store pipeline execution information
+  6) rna_type:
+     Long-read RNA-seq technology, "direct_rna" or "cdna" (case-insensitive)
+        - "direct_rna": Direct sequencing of native RNA strands
+        - "cdna": Traditional RNA sequencing technology
   7) num_of_top_secondary_mapping: Minimap2 -N option
   8) secondary_mapping_min_chaining_ratio: Minimap2 -p option
-  9) fcnts_strand: FeatureCounts -s option
-        - Strand-specific read counting: 0 (unstranded; default), 1 (stranded) and 2 (reversely stranded)
-  10) min_overlapping_bases: FeatureCounts --minOverlap option
-        - Minimum number of overlapping bases in a read that is required for read assignment (default: 1) 
+  9) fcnts_strand:
+     FeatureCounts -s option (strand-specific read counting)
+        - 0 (unstranded; default), 1 (stranded) and 2 (reversely stranded)
+  10) min_overlapping_bases: 
+      FeatureCounts --minOverlap option (min. number of overlapping bases) 
+        - default: 1
   11) feature_type: FeatureCounts -t option
-        - The feature type(s): 'exon' and/or 'transcript'
-        - If more than one feature type is provided, they should be separated by ',' (no space)  
+        - 'exon' and/or 'transcript'
+        - separated by ',' (no space) when multiple types are provided 
 ```
 4. Run this pipeline  
 ```
