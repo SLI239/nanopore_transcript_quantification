@@ -29,7 +29,7 @@ process MINIMAP2_ALIGN_READ {
     """
     minimap2 -t $task.cpus \
     -ax splice -uf -k14 \
-    -p $params.secondary_mapping_min_chaining_ratio \
+    -p $params.min_chaining_score_ratio \
     -N $params.num_of_top_secondary_mapping \
     $ref_index $fastq_reads > ${fastq_name}.sam 
         
@@ -38,7 +38,7 @@ process MINIMAP2_ALIGN_READ {
     """
     minimap2 -t $task.cpus \
     -ax splice:hq -uf \
-    -p $params.secondary_mapping_min_chaining_ratio \
+    -p $params.min_chaining_score_ratio \
     -N $params.num_of_top_secondary_mapping \
     $ref_index $fastq_reads > ${fastq_name}.sam 
 
