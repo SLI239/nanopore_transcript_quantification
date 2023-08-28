@@ -38,11 +38,11 @@ conda install -c conda-forge mamba=1.3.1
 3. Open 'nextflow.config' and edit 'params' section 
 ```
   1) fastq_dir: Path of gzipped fastq (.fastq.gz) directory
-  2) out_dir: Path of directory to store output
-  3) trace_dir: Path of directory to store pipeline execution information
-  4) ref_genome: Path of reference genome file (.fa) 
-  5) genome_annot: Path of genome annotation file (.gtf)
-     - The version needs to match with the reference genome
+  2) ref_genome: Path of reference genome file (.fa) 
+  3) genome_annot: Path of genome annotation file (.gtf)
+    - The version needs to match with the reference genome
+  4) out_dir: Path of directory to store output
+  5) trace_dir: Path of directory to store pipeline execution information
   6) rna_type: Long-read RNA-seq technology, 'direct_rna' or 'cdna' (case-insensitive)
      - direct_rna: Direct sequencing of native RNA strands
      - cdna: Traditional RNA sequencing technology
