@@ -42,7 +42,7 @@ workflow {
     ALIGN(fastq_ch)
 
 
-    // 2) Merge mapped reads by chromsome
+    // 2) Merge mapped reads by chromosome
     SPLIT_MERGE(ALIGN.out)
     
 
