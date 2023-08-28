@@ -14,7 +14,7 @@
   - [Bamtools(v2.5.2)](https://github.com/pezmaster31/bamtools)
   - [Gatk4(v4.3.0.0)](https://gatk.broadinstitute.org/hc/en-us/sections/9570256638747-4-3-0-0-Current)
   - [Stringtie(v2.2.1)](https://github.com/gpertea/stringtie)
-  - [FeatureCounts(subread v2.0.3)](https://subread.sourceforge.net/ https://bioconductor.org/packages/release/bioc/vignettes/Rsubread/inst/doc/SubreadUsersGuide.pdf)
+  - [FeatureCounts(subread v2.0.3)](https://bioconductor.org/packages/release/bioc/vignettes/Rsubread/inst/doc/SubreadUsersGuide.pdf)
 
 ## Input
 - Gzipped fastq (.fastq.gz): Directory path needed
