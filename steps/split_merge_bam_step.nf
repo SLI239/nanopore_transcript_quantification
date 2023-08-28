@@ -42,7 +42,8 @@ workflow SPLIT_MERGE {
 
 
     emit:
-        merged_bList       // tuple structure: [ chromosome name, bam file ]                                            
+        merged_bList       // tuple structure: [ chromosome name, bam file ]  
+
 }
 
 
