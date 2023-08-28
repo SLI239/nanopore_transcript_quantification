@@ -83,6 +83,7 @@ process BAMTOOLS_SPLIT_BAM {
 
 // Merge bam by chromosome using picard
 process PICARD_MERGE_BAM {
+    
     input:
         tuple val(chr), file(bamList_chr)
     output:
